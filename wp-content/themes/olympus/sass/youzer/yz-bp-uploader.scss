@@ -1,0 +1,291 @@
+/**
+ * BuddyPress Uploader .
+ */
+.youzer .bp-uploader-progress .filename {
+    color: #8a8a8a;
+    font-size: 13px;
+    word-break: break-all;
+}
+
+.youzer div.bp-avatar-status .bp-progress,
+.youzer div.bp-cover-image-status .bp-progress {
+    padding: 0;
+    width: 100%;
+    border: none;
+    float: right;
+    height: 15px;
+    line-height: 2;
+    background: none;
+    overflow: hidden;
+    margin: 0 0 15px 0;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.youzer div.bp-avatar-status .bp-bar,
+.youzer div.bp-cover-image-status .bp-bar {
+    width: 0;
+    height: 100%;
+    border: none !important;
+    background-color: #93d449;
+    transition: all 0.5s ease-in-out;
+}
+
+.youzer .bp-avatar p {
+    color: #888da8;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.youzer #bp-delete-cover-image,
+.youzer #bp-delete-avatar {
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 15px;
+    line-height: 24px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff5e3a;
+    background-color: var(--primary-accent-color);
+}
+
+.youzer #bp-delete-cover-image:before,
+.youzer #bp-delete-avatar:before {
+    content: "\f2ed";
+    color: #fff;
+}
+
+.youzer #avatar-crop-actions .avatar-crop-submit:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: url("../../svg-icons/camera-icon.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.youzer #avatar-crop-actions .avatar-crop-submit:before,
+.youzer #bp-delete-cover-image:before,
+.youzer #bp-delete-avatar:before {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free" !important;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.youzer #bp-browse-button {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    border-radius: 100% !important;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    padding: 0;
+    color: transparent !important;
+    font-size: 20px;
+    background-color: #ff5e3a;
+    background-color: var(--primary-accent-color);
+    background-image: url("../../svg-icons/plus-button.svg");
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: none !important;
+    margin: 15px auto;
+    outline: none;
+    opacity: .85;
+}
+
+.youzer #bp-browse-button:hover {
+    opacity: 1;
+}
+
+.youzer #drag-drop-area {
+    border: 2px dashed #bbc0d5;
+}
+
+.youzer .drag-drop-inside p.drag-drop-info {
+    text-transform: capitalize;
+}
+
+.youzer .bp-avatar-nav ul {
+    border-bottom: 1px solid #e6ecf5;
+}
+
+.youzer .avatar-nav-items li a {
+    color: #515365;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.youzer .bp-avatar-nav ul.avatar-nav-items li.current {
+    border: 1px solid #e6ecf5;
+    border-bottom: #fff;
+    bottom: -1px;
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.youzer .bp-avatar-nav li.current a {
+    color: #ff5e3a;
+    color: var(--primary-accent-color);
+    font-weight: 700;
+}
+
+.youzer .bp-uploader-progress div.error,
+.youzer div.bp-cover-image-status p,
+.youzer div.bp-avatar-status p {
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.youzer .bp-avatar-status,
+.youzer .bp-cover-image-status {
+    margin-bottom: 0;
+}
+
+.youzer .bp-avatar-status p.success,
+.youzer .bp-cover-image-status p.success {
+    border: none;
+    color: #fff !important;
+    background-color: #1ed760;
+}
+
+.youzer .bp-avatar .warning,
+.youzer .bp-cover-image .warning {
+    color: #515365;
+    margin: 15px 0 0;
+    padding: 12px 25px;
+    background-color: #f6f6f6;
+    border-left: 5px solid #F44336;
+}
+
+#buddypress.youzer div.bp-avatar-status p.warning,
+#buddypress.youzer div.bp-cover-image-status p.warning,
+body.youzer div.bp-avatar-status p.warning,
+.youzer div.bp-cover-image-status p.warning {
+    border: none;
+    color: #515365;
+    font-size: 13px;
+    padding: 12px 25px;
+    background-color: #f6f6f6;
+    border-left: 5px solid #38a9ff;
+    border-left: 5px solid var(--secondary-accent-color);
+}
+
+.youzer div.bp-avatar-status p.warning,
+.youzer div.bp-cover-image-status p.warning{
+    border: none;
+    color: #8a8a8a;
+    font-size: 13px;
+    padding: 12px 25px;
+    background-color: #f6f6f6;
+    border-left: 5px solid #809fae;
+}
+
+.rtl #buddypress.youzer div.bp-avatar-status p.warning,
+.rtl #buddypress.youzer div.bp-cover-image-status p.warning,
+.rtl body.youzer div.bp-avatar-status p.warning,
+.rtl .youzer div.bp-cover-image-status p.warning {
+    border-left: none;
+    border-right: 5px solid #38a9ff;
+    border-right: 5px solid var(--secondary-accent-color);
+}
+
+.youzer #bp-avatar-feedback.error,
+.youzer #bp-cover-image-feedback.error,
+.youzer .bp-uploader-progress div.error {
+    background-color: #fa4a3a;
+}
+
+.youzer #avatar-crop-actions .button {
+    width: 100%;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 10px 5px;
+    background-color: #ff5e3a;
+    background-color: var(--primary-accent-color);
+    opacity: .85;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.youzer #avatar-crop-actions .button:hover {
+    opacity: 1;
+}
+
+.youzer .bp-cover-image {
+    margin-top: 25px;
+}
+
+.youzer .bp-cover-image-manage {
+    margin-top: 18px;
+}
+
+.youzer .yz-group-settings-tab .bp-uploader-progress div {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.youzer #bp-upload-ui {
+    background: transparent;
+}
+
+.youzer #avatar-crop-actions .button,
+.youzer div.bp-cover-image-status p,
+.youzer .bp-cover-image .warning,
+.youzer div.bp-avatar-status p,
+.youzer #bp-delete-cover-image,
+.youzer .bp-avatar .warning,
+.youzer #bp-browse-button,
+.youzer #bp-delete-avatar {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+@media screen and ( max-width: 475px ) {
+
+    .youzer div.bp-avatar-status .bp-progress {
+        margin-bottom: 15px;
+    }
+
+    .youzer div.bp-avatar-status .bp-progress,
+    .youzer .bp-uploader-progress .filename {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .nice-select {
+        max-width: 100%;
+    }
+}

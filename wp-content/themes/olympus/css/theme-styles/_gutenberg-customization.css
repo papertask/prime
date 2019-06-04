@@ -1,0 +1,48 @@
+/*------------- #Gutenberg Customization --------------*/
+.olympus-theme .wp-block-pullquote {
+  border-top: 4px solid #555d66;
+  border-bottom: 4px solid #555d66;
+  color: #40464d;
+}
+
+.olympus-theme .wp-block-pullquote p::before {
+  display: none;
+}
+
+.olympus-theme .wp-block-image,
+.olympus-theme .wp-block-embed-vimeo {
+  margin: 2em auto;
+}
+
+.olympus-theme .wp-block-gallery {
+  margin: 2em -8px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.olympus-theme figure {
+  margin: .5em auto;
+}
+
+.olympus-theme .wp-block-image figcaption {
+  margin-bottom: 0;
+}
+
+.olympus-theme .wp-block-separator {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 2px solid #8f98a1;
+  margin: 1.65em auto;
+}
+
+.olympus-theme .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+  max-width: 100px;
+}
+
+.olympus-theme .blog-post ul:not([class]) li + li {
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=_gutenberg-customization.css.map */
